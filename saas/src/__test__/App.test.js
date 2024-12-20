@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import Table from '../Table';
+import Table from '../components/Table';
 
 const columns = [
   { header: 'S.No', accessor: 's.no' },
